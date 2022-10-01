@@ -1,16 +1,17 @@
 numbers = [12, 75, 150, 180, 145, 525, 50]
 
-for divisible_by_five in numbers:
 
+for item in numbers:
 
-    if divisible_by_five%5 != 0:
-        num_index = numbers.index(divisible_by_five)
+	if item > 500:
+		break
 
-        numbers[num_index] += 1
+	elif item > 150:
+		continue
 
-        print(num_index)
+	elif item % 5 == 0:
+		print(item)
 
-        #numbers[num_index] += 1
 
 
 
