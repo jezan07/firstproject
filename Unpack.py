@@ -1,13 +1,13 @@
 tuple1 = (10, 20, 30, 40)
 
-a = tuple1[1]
+a = tuple1[0]
 print(a)
 
 b = tuple1[1]
-print(a)
+print(b)
 
 c = tuple1[2]
-print(a)
+print(c)
 
 d = tuple1[3]
-print(a)
+print(d)
