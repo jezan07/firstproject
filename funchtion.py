@@ -4,5 +4,5 @@ for a in range(len(i)):
       print(i[a])
 
 else:
-      print("Done")
+      print("Done!")
 
